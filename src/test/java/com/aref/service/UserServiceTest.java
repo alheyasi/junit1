@@ -30,6 +30,10 @@ public class UserServiceTest {
     public void findByIndex() throws Exception {
     }
 
+    private void getFirst() {
+        System.out.println("First commit 1");
+    }
+
     @Test
     public void save() throws Exception {
         User user1 = new User.Builder().withAge(20).withName("aref").build();
