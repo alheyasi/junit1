@@ -34,6 +34,14 @@ public class UserServiceTest {
         System.out.println("First commit 1");
     }
 
+    private void getSecond() {
+        System.out.println("bad commit");
+    }
+
+    private void getThird() {
+        System.out.println("Second commit 2");
+    }
+
     @Test
     public void save() throws Exception {
         User user1 = new User.Builder().withAge(20).withName("aref").build();
