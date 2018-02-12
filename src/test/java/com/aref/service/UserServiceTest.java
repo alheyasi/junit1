@@ -42,6 +42,10 @@ public class UserServiceTest {
         System.out.println("Second commit 2");
     }
 
+    private void getLast() {
+        System.out.println("last good commit");
+    }
+
     @Test
     public void save() throws Exception {
         User user1 = new User.Builder().withAge(20).withName("aref").build();
